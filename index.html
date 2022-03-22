@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Izzy Pinder</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ca92037ae8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caudex&family=Krona+One&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- landing -->
+
+    <section id="landing__section">
+      <div class="navbar">
+        <p class="nav__icon">☜</p>
+        <nav class="dropdown__Nav">
+          <a href="#info" class="hover-underline-animation">info</a>
+          <a href="#projects" class="hover-underline-animation">projects</a>
+          <a href="#contact" class="hover-underline-animation">contact</a>
+        </nav>
+      </div>
+      <main class="landing__Main">
+        <h1><span class="landingUnderline__span">IZZY PINDER</span></h1>
+        <p class="landing__p">full stack software developer</p>
+      </main>
+      <div class="learnMore">
+        <a href="#info">
+          learn more
+          <span class="downArrow__span__learnMore">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- about me -->
+
+    <section id="info" class="info__Section">
+      <h2>Hi, I'm <span class="underline__span">Izzy</span></h2>
+      <section class="infoBasic__section">
+        <p class="infoLeft__p">
+          A Fine Art grad who pivoted into software development, I enjoy
+          applying creative solutions to tech problems and finding tech
+          solutions for creative problems.
+        </p>
+        <p>
+          Having recently completed the Northcoders coding bootcamp, I'm
+          currently working on a React social news app and continuing to develop
+          my full-stack programming knowledge.
+        </p>
+        <p>Some technologies I'm currently working with:</p>
+        <div class="techs__div">
+          <ul>
+            <li>PostgreSQL</li>
+            <li>Express</li>
+          </ul>
+          <ul>
+            <li>Node.js</li>
+            <li>React</li>
+          </ul>
+        </div>
+      </section>
+
+      <p class="infoArrow__p">⌃↣➶*:・ﾟ✧ *:・ﾟ✧</p>
+
+      <div class="continue__div">
+        <a href="#projects">
+          continue to projects
+          <span class="downArrow__span__continue">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- projects -->
+
+    <section id="projects" class="projects__Section">
+      <h2 class="projects__h2">Projects</h2>
+      <section class="project__container">
+        <div class="project__img__container">
+          <img src="/assets/nrn-api.png" class="project__img" />
+        </div>
+        <div class="projectInfo__div">
+          <h3>news rn</h3>
+          <p class="projectInfo__p">
+            news right now is a social news and discussion site
+          </p>
+          <h4>Back-end</h4>
+          <p class="projectInfo__p">
+            The news rn web API is designed using MVC architecture, is hosted on
+            Heroku and serves content for its front-end.
+          </p>
+          <p class="projectTech__p">
+            Node.js, Express, PostgreSQL, Jest, REST API, GitHub Actions, Heroku
+          </p>
+          <a
+            href="https://newsrn.herokuapp.com/api"
+            target="_blank"
+            class="live__a"
+            >View available endpoints</a
+          >
+          <a
+            href="https://github.com/izzy-pin/news-rn-back-end"
+            target="_blank"
+            class="source__a"
+            >Source code</a
+          >
+        </div>
+      </section>
+      <section class="project__container">
+        <div class="project__img__container">
+          <img src="/assets/news-rn.png" class="project__img" />
+        </div>
+
+        <div class="projectInfo__div">
+          <h3>news rn</h3>
+
+          <h4>Front-end</h4>
+          <p class="projectInfo__p">
+            news rn's articles can be by filtered by topic and sorted by date
+            created and user engagement, and each article has user curated
+            ratings and its own commments section.
+          </p>
+          <p class="projectTech__p">React, Axios, Netlify</p>
+          <a href="https://newsrn.netlify.app/" target="_blank" class="live__a"
+            >Live site</a
+          >
+          <a
+            href="https://github.com/izzy-pin/news-rn-app"
+            target="_blank"
+            class="source__a"
+            >Source code</a
+          >
+        </div>
+      </section>
+      <section class="project__container">
+        <div class="project__img__container">
+          <img src="/assets/qts.png" class="project__img" />
+        </div>
+        <div class="projectInfo__div">
+          <h3>Quaff The Shelf</h3>
+          <p class="projectInfo__p">
+            A cloud-hosted reading library for iOS and Android that generates
+            book and drink pairings using individual preferences and aggregated
+            user data.
+          </p>
+          <p class="projectTech__p">
+            React Native, Expo, Firebase Authentication, Cloud Firestore
+          </p>
+          <a
+            href="https://github.com/izzy-pin/QuaffTheShelf"
+            target="_blank"
+            class="source__a"
+            >Source code</a
+          >
+        </div>
+      </section>
+      <div class="continue__div">
+        <a href="#contact">
+          continue to contact page
+          <span class="downArrow__span__continue">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+      <section class="contact__Section">
+        <h2>Contact me</h2>
+        <p class="contact__p">
+          You can find me at the links below, or please drop me a message
+        </p>
+        <div class="socials__Div">
+          <a href="https://github.com/izzy-pin" target="_blank"
+            ><i
+              class="fab fa-github"
+              aria-label="GitHub"
+              aria-hidden="true"
+              class="socials__a"
+            ></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/isabel-pinder-458598177/"
+            target="_blank"
+            ><i
+              class="fab fa-linkedin-in"
+              aria-label="LinkedIn"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <!-- <p>izzypinder@gmail.com</p> -->
+        </div>
+
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          id="contact-form"
+          class="contact__form"
+          action="/success/"
+        >
+          <p class="hidden">
+            <label id="contact-form-bot-label"
+              >Don't fill this out if you're human:
+              <input name="bot-field" aria-labelledby="contact-form-bot-label"
+            /></label>
+          </p>
+          <p class="form-row">
+            <label
+              id="contact-form-name-label"
+              for="contact-form-name"
+              class="form-label"
+              maxlength="40"
+              >Name</label
+            >
+            <input
+              type="text"
+              name="name"
+              id="contact-form-name"
+              aria-labelledby="contact-form-name-label"
+              class="form-input"
+              required
+            />
+          </p>
+          <p class="form-row">
+            <label
+              id="contact-form-email-label"
+              for="contact-form-email"
+              class="form-label"
+              >Email</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="contact-form-email"
+              aria-labelledby="contact-form-email-label"
+              class="form-input"
+              required
+            />
+          </p>
+          <p class="form-row">
+            <label
+              id="contact-form-message-label"
+              for="contact-form-message"
+              class="form-label"
+              >Message</label
+            >
+            <textarea
+              name="message"
+              id="contact-form-message"
+              aria-labelledby="contact-form-message-label"
+              class="form-textarea"
+              rows="9"
+              maxlength="500"
+              required
+            ></textarea>
+          </p>
+          <p class="form-row form-submit">
+            <button type="submit" class="contact__button">Send</button>
+          </p>
+        </form>
+      </section>
+      <div class="back-to-top__div">
+        <a href="#landing__section" class="to-top__a">↑ to top ↑</a>
+      </div>
+    </section>
+  </body>
+</html>
