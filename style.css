@@ -27,7 +27,7 @@ html {
   background-color: #d4c8ef;
 }
 
-.navbar:hover .dropdown__Nav a,
+.navbar:hover .navigation__ul li a,
 .navbar:hover .nav__icon {
   color: #003366;
 }
@@ -51,19 +51,23 @@ html {
 }
 
 .dropdown__Nav {
+  width: 100%;
+}
+
+.navigation__ul {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   margin-bottom: 10px;
   padding: 10px 10px 0 0;
   width: 100%;
+  list-style-type: none;
 }
 
-.dropdown__Nav a {
+.navigation__ul li a {
   text-decoration: none;
   color: transparent;
-  font: 1.5rem "Caudex", serif;
-  font-weight: lighter;
+  font: 1.5rem "Gill Sans", sans-serif;
   letter-spacing: 8px;
   padding-bottom: 5px;
   padding: 8px 0;
@@ -239,6 +243,10 @@ html {
   padding: 10px;
 }
 
+.continue__div a:hover {
+  background-color: rgba(168, 134, 246, 0.6);
+}
+
 /* projects page */
 
 .projects__Section {
@@ -254,7 +262,7 @@ html {
 .projects__h2 {
   text-align: center;
   padding: 10px 5px;
-  margin: 10px 0 0 0;
+  margin: 40px 0 20px 0;
   font: 2.5rem "Space Mono", monospace;
   letter-spacing: 2px;
   color: #f5f5f5;
@@ -303,7 +311,6 @@ html {
   padding: 10px;
   margin: 0;
   font: 2rem "Space Mono", monospace;
-  /* font: 2rem "Caudex", serif; */
   letter-spacing: 2px;
   text-align: center;
   font-weight: 500;
@@ -443,7 +450,7 @@ html {
   align-items: center;
 }
 
-.form-row {
+.form__row {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -452,7 +459,7 @@ html {
   color: #ffffff;
 }
 
-.form-row label {
+.form__row label {
   margin: 5px;
   font-size: 1.2rem;
   letter-spacing: 2px;
@@ -491,7 +498,8 @@ html {
 
 .contact__button:hover {
   cursor: pointer;
-  color: #003366;
+  /* color: #003366; */
+  background: #a179fd;
   transition: all 0.2s ease-in-out;
 }
 
@@ -552,7 +560,7 @@ html {
     margin-top: 0;
   }
 
-  .dropdown__Nav {
+  .navigation__ul {
     flex-direction: row;
     justify-content: space-evenly;
   }

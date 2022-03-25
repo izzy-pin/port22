@@ -25,9 +25,17 @@
       <div class="navbar">
         <p class="nav__icon">☜</p>
         <nav class="dropdown__Nav">
-          <a href="#info" class="hover-underline-animation">info</a>
-          <a href="#projects" class="hover-underline-animation">projects</a>
-          <a href="#contact" class="hover-underline-animation">contact</a>
+          <ul class="navigation__ul">
+            <li>
+              <a href="#info" class="hover-underline-animation">info</a>
+            </li>
+            <li>
+              <a href="#projects" class="hover-underline-animation">projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="hover-underline-animation">contact</a>
+            </li>
+          </ul>
         </nav>
       </div>
       <main class="landing__Main">
@@ -214,7 +222,7 @@
               <input name="bot-field" aria-labelledby="contact-form-bot-label"
             /></label>
           </p>
-          <p class="form-row">
+          <p class="form__row">
             <label
               id="contact-form-name-label"
               for="contact-form-name"
@@ -231,7 +239,7 @@
               required
             />
           </p>
-          <p class="form-row">
+          <p class="form__row">
             <label
               id="contact-form-email-label"
               for="contact-form-email"
@@ -247,7 +255,7 @@
               required
             />
           </p>
-          <p class="form-row">
+          <p class="form__row">
             <label
               id="contact-form-message-label"
               for="contact-form-message"
@@ -264,7 +272,7 @@
               required
             ></textarea>
           </p>
-          <p class="form-row form-submit">
+          <p class="form__row form-submit">
             <button type="submit" class="contact__button">Send</button>
           </p>
         </form>
